@@ -1,13 +1,13 @@
 package br.com.andersonchoren.conversordemoedas.model
 
-import androidx.databinding.ObservableDouble
+import androidx.databinding.*
 
 class Price {
-    private var value = ObservableDouble()
+    private var value = ObservableField<String>()
 
     fun getValue() = this.value
 
-    fun setValue(value: Double){
+    fun setValue(value: String){
         this.value.set(value)
     }
 }

@@ -4,4 +4,5 @@
     <string name="label_real">R$</string>
     <string name="label_dollar">U$</string>
     <string name="label_euro">€</string>
+    <string name="cep">Digite O CEP</string>
 </resources>
